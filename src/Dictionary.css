@@ -1,13 +1,7 @@
-h1 {
+.Dictionary h1 {
   color: #814256;
 }
 
 .Dictionary form {
-  display: inline-flex;
-  margin-bottom: 50px;
-  margin-right: 10px;
-}
-.button {
-  margin: 10px;
-  background-color: black;
+  margin-bottom: 10px;
 }
