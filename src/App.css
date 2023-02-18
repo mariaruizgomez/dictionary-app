@@ -1,12 +1,25 @@
 .App {
   text-align: center;
+  
 }
 
 .App-header {
   margin: 30px 0;
 }
 .Personal-logo {
-  max-width: 200px;
+  max-width: 190px;
   display: block;
   margin: 20px;
+  
+}
+
+.App footer {
+  font-size: 11px;
+  font-family: monospace;
+}
+
+.App footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
