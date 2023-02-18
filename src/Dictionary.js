@@ -34,7 +34,7 @@ function load () {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1>Dictionary</h1>
+        <h1>What word do you want to look up?</h1>
         <section>
           <form
             className="col-12 d-flex me-5 justify-content-center"
@@ -46,6 +46,7 @@ function load () {
               autoFocus="on"
               className="form-control me-3"
               onChange={handleKeywordChange}
+              defaultValue={props.defaultKeyword}
             />
             <div>
               <button className="btn" title="Search">

@@ -2,6 +2,19 @@
     color: #222f44;
     text-align: left;
     margin-left: 15px;
+    font-weight: bold;
 }
 
+.definition {
+font-size: 19px;
+    text-align: left;
+    margin-bottom: 5px;
+}
 
+.example {
+    font-style: italic;
+    font-size: 15px;
+    word-spacing: normal;
+    color: #814256;
+    
+}
