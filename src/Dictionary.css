@@ -2,6 +2,28 @@
   color: #814256;
 }
 
-.Dictionary form {
+.Dictionary input {
   margin-bottom: 10px;
+  width: 200%;
+  padding: 6px 4px;
+}
+
+section {
+  box-shadow: rgba(0 0 0 / 10%) 0px 10px 10px;
+  background-color: #efe0d5;
+  color: #222f44;
+  border-radius: 7px;
+  margin: 20px 0;
+  padding: 30px;
+  text-align: center;
+}
+
+.btn {
+  background-color: white;
+  color: #222f44;
+}
+
+.suggestions {
+    text-align: left;
+    font-size: 14px;
 }

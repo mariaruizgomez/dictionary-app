@@ -2,6 +2,13 @@
   text-align: center;
   background-color: #222f44;
   font-family: "Playfair Display", serif;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 6px;
+}
+
+body{
+  background-color: #efe0d5;
 }
 
 h2 {
@@ -18,7 +25,7 @@ h2 {
 }
 
 .App footer {
-  font-size: 19px;
+  font-size: 12px;
   font-family: monospace;
   color: #efe0d5;
   margin-top: 50px;
@@ -29,3 +36,4 @@ h2 {
   text-decoration: none;
   font-weight: bold;
 }
+
