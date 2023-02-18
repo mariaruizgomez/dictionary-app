@@ -1,27 +1,27 @@
 .App {
   text-align: center;
-  background-color: #222F44;
-  font-family: 'Playfair Display', serif;
+  background-color: #222f44;
+  font-family: "Playfair Display", serif;
 }
 
 h2 {
   color: #efe0d5;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .App-header {
   margin: 30px 0;
 }
 .Personal-logo {
-  max-width: 190px;
+  max-width: 100px;
   display: block;
   margin: 20px;
-  
 }
 
 .App footer {
   font-size: 19px;
   font-family: monospace;
   color: #efe0d5;
+  margin-top: 50px;
 }
 
 .App footer a {
