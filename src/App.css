@@ -1,8 +1,13 @@
 .App {
   text-align: center;
-  
+  background-color: #222F44;
+  font-family: 'Playfair Display', serif;
 }
 
+h2 {
+  color: #efe0d5;
+  font-family: 'Montserrat', sans-serif;
+}
 .App-header {
   margin: 30px 0;
 }
@@ -14,12 +19,13 @@
 }
 
 .App footer {
-  font-size: 11px;
+  font-size: 19px;
   font-family: monospace;
+  color: #efe0d5;
 }
 
 .App footer a {
-  color: black;
+  color: #814256;
   text-decoration: none;
   font-weight: bold;
 }

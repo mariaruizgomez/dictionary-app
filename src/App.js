@@ -13,6 +13,7 @@ function App() {
         </header>
         <main className="main-content">
           <Dictionary />
+          <h2>Hi</h2>
         </main>
 
         <footer>
