@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #222f44;
+  background-color: #3D3E40;
   font-family: "Playfair Display", serif;
   max-width: 600px;
   margin: 50px auto;
@@ -8,12 +8,14 @@
 }
 
 body{
-  background-color: #efe0d5;
+   background-image: url("https://images.pexels.com/photos/6997/books-writing-reading-sonja-langford.jpg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 .App-header {
-  margin: 30px 0;
+  margin: 5px 0;
 }
 .Personal-logo {
   max-width: 100px;

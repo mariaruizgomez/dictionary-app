@@ -34,7 +34,8 @@ function load () {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1>What word do you want to look up?</h1>
+        <i class="fa-solid fa-book-open"></i>
+        <h1>Dictionary</h1>
         <section>
           <form
             className="col-12 d-flex me-5 justify-content-center"

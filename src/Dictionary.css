@@ -10,7 +10,7 @@
 
 section {
   box-shadow: rgba(0 0 0 / 10%) 0px 10px 10px;
-  background-color: #efe0d5;
+  background-color: #AFB0B2;
   color: #222f44;
   border-radius: 7px;
   margin: 20px 0;
@@ -22,8 +22,17 @@ section {
   background-color: white;
   color: #222f44;
 }
+.btn:hover {
+  background-color: white;
+  color: #222f44;
+}
 
 .suggestions {
     text-align: left;
     font-size: 14px;
+}
+
+.fa-book-open {
+  color: #efe0d5;
+  font-size: 40px;
 }

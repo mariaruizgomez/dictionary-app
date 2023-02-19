@@ -10,7 +10,7 @@ export default function App() {
           <img src={logo} className="Personal-logo img-fluid" alt="logo" />
         </header>
         <main className="main-content">
-          <Dictionary defaultKeyword="Sauté" />
+          <Dictionary defaultKeyword="Trove" />
         </main>
 
         <footer>
