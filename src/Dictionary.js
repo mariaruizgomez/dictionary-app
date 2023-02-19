@@ -3,6 +3,7 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
+import logo from "./logo3.png";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -24,7 +25,7 @@ export default function Dictionary(props) {
     axios.get(apiUrl).then(handleDictionaryResponse);
     let pexelsApiKey =
       "5e18uCq69A7enlgU5hjwv8umIyYE2DKuBTANxlZoFjir6LhrVEdbdSpg";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
 
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
@@ -46,9 +47,10 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <i class="fa-solid fa-book-open"></i>
-        <h1>Dictionary</h1>
         <section>
+          <img src={logo} className="Personal-logo img-fluid" alt="logo" />
+          <h1>Dictionary</h1>
+
           <form
             className="col-12 d-flex me-5 justify-content-center"
             onSubmit={handleSumit}
@@ -69,12 +71,11 @@ export default function Dictionary(props) {
           </form>
           <div className="suggestions">
             <i class="fa-regular fa-lightbulb"></i>{" "}
-            <strong>most-searched-for definitions: </strong>Trove, Sauté, canny,
-            foray...{" "}
+            <strong>Suggestions: </strong>Sauté, canny...
           </div>
         </section>
-        <Results results={results} />
         <Photos photos={photos} />
+        <Results results={results} />
       </div>
     );
   } else {

@@ -1,5 +1,7 @@
 .Dictionary h1 {
-  color: #814256;
+   color: #efe0d5;
+   margin-bottom: 15px;
+   
 }
 
 .Dictionary input {
@@ -9,13 +11,14 @@
 }
 
 section {
-  box-shadow: rgba(0 0 0 / 10%) 0px 10px 10px;
-  background-color: #AFB0B2;
-  color: #222f44;
+  box-shadow: rgba(250, 246, 246, 0.1) 0px 10px 10px;
+  background-color: #222f44;
+  color: #efe0d5;
   border-radius: 7px;
   margin: 20px 0;
   padding: 30px;
   text-align: center;
+  
 }
 
 .btn {
@@ -30,9 +33,13 @@ section {
 .suggestions {
     text-align: left;
     font-size: 14px;
+    font-family: monospace;
 }
 
 .fa-book-open {
   color: #efe0d5;
-  font-size: 40px;
+  font-size: 60px;
+  float: right;
+  margin-right: 60px;
+  margin-top: -55px;
 }

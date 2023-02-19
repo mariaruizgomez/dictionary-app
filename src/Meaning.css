@@ -1,20 +1,20 @@
 .Meaning h3 {
-    color: #222f44;
-    text-align: left;
-    margin-left: 15px;
-    font-weight: bold;
+  color: #efe0d5;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 .definition {
-font-size: 19px;
-    text-align: left;
-    margin-bottom: 5px;
+  font-size: 19px;
+  text-align: left;
+  margin-bottom: 5px;
 }
 
 .example {
-    font-style: italic;
-    font-size: 15px;
-    word-spacing: normal;
-    color: #814256;
-    
+  font-style: italic;
+  font-size: 19px;
+  word-spacing: normal;
+  color: #814256;
+  margin-left: -20px;
 }

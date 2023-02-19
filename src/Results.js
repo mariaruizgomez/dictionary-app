@@ -9,7 +9,7 @@ export default function Results(props) {
       <div className="Results">
         <section>
           <h2>{props.results.word}</h2>
-
+          <i class="fa-solid fa-book-open"></i>
           {props.results.phonetics.map(function (phonetic, index) {
             if (phonetic.audio.length === 0 || phonetic.text.length === 0)
               return <></>;
