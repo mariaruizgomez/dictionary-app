@@ -40,9 +40,9 @@ section {
 
 .fa-book-open {
   color: #efe0d5;
-  font-size: 60px;
-  float: right;
-  margin-right: 20px;
-  margin-top: -5px;
-  position: relative;
+  font-size: 30px;
+  display: inline-block;
+  
+  
+  
 }

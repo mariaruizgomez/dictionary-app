@@ -49,8 +49,9 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <img src={logo} className="Personal-logo img-fluid" alt="logo" />
-          <h1>Dictionary</h1>
-
+          <h1>
+            Dictionary <i class="fa-solid fa-book-open"></i>
+          </h1>
           <form
             className="col-12 d-flex me-5 justify-content-center"
             onSubmit={handleSumit}
