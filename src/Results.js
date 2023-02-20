@@ -11,13 +11,13 @@ export default function Results(props) {
           <h2>{props.results.word}</h2>
           <i class="fa-solid fa-book-open"></i>
           {props.results.phonetics.map(function (phonetic, index) {
-            if (phonetic.audio.length === 0 || phonetic.text.length === 0)
-              return <></>;
-            return (
-              <div key={index}>
-                <Phonetic phonetic={phonetic} />
-              </div>
-            );
+           if (phonetic.audio?.length > 0 && phonetic.text?.length > 0)
+             return (
+               <div key={index}>
+                 <Phonetic phonetic={phonetic} />
+               </div>
+             );
+            return null;
           })}
         </section>
         {props.results.meanings.map(function (meaning, index) {
